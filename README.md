@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hotel Management System - Installation Guide
 
 ## Required Files
@@ -42,3 +43,6 @@ If you encounter any of these errors:
     - Check if you have write permissions in the folder
 
 For any other issues, please contact the developer.
+=======
+# Hotel_Management_System_cpp
+>>>>>>> d4d981c1d065cfd530739cab92fa5eb0b00fee12
