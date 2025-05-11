@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build and run",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",
+                "Structures/structures.cpp",
+                "Features/Messages/messages.cpp",
+                "Features/menus.cpp",
+                "Auth/authentication.cpp",
+                "Database/database.cpp",
+                "Components/Customer/customer.cpp",
+                "Components/Payment/payment.cpp",
+                "Components/Staff/staff.cpp",
+                "Components/Room/room.cpp",
+                "Components/Room/roomtypes.cpp",
+                "Components/Booking/booking.cpp",
+                "-o",
+                "main.exe",
+                "-I.",
+                "-IDatabase/sqlite3",
+                "-LDatabase",
+                "-lsqlite3"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

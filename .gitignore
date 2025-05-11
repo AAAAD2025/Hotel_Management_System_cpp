@@ -1,0 +1,10 @@
+/obj
+/bin
+*.layout
+*.depend
+*.cbp
+*.py
+*.bkp
+*.py
+*.pptx
+*.html
