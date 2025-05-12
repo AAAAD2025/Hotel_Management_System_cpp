@@ -32,6 +32,7 @@ void startProgram() {
         showStaffMenu(startProgram, retrieveDatabaseData);
       }
     }
+  }
 }
 
 // Entry point of the program
